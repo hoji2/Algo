@@ -1,11 +1,9 @@
-package algo;
-
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class D191216_BOJ_1260_DFS와BFS {
+public class BOJ_1260_DFS와BFS {
 
 	static Scanner sc=new Scanner(System.in);
 	static char[][]map;

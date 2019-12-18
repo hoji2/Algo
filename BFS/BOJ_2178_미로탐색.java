@@ -1,5 +1,3 @@
-package algo;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -7,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class D191216_BOJ_2178_미로탐색{
+public class BOJ_2178_미로탐색{
 	
 	// 도착여부 파악(탈출조건)
 	// 배열 idx (1,1)

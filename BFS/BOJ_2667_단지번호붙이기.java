@@ -1,5 +1,3 @@
-package algo;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -8,7 +6,7 @@ import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class D191217_BOJ_2667_단지번호붙이기{
+public class BOJ_2667_단지번호붙이기{
 
 	static BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
 	static int N;

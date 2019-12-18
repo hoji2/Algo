@@ -1,11 +1,9 @@
-package algo;
-
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class D191216_BOJ_7576_토마토 {
+public class BOJ_7576_토마토{
 
 	// Scanner 입력 시 -1 떄문에 int[][]로 선언
 	// StringTokenizer 사용 시 -1입력은 가능 -> 로직상 map[i][j]=-1을 판별하는 경우가 없기에 char[][] 사용 가능

@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class D191217_BOJ_1697_숨바꼭질 {
+public class BOJ_1697_숨바꼭질 {
 
 	/*
 	 
