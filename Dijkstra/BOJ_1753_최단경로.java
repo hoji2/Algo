@@ -56,7 +56,7 @@ public class BOJ_1753_최단경로 {
 			
 			for (int i = 0; i <map.get(p.num).size(); i++) {
 				// idx1 : 출발점 , idx2 : 도착점
-				// tmp1 : 도착점에 존재하는 최신 최소값 , tmp2 : idx1을 거쳐 가중치를 더해진 새로운 경로
+				// tmp1 : 도착점에 존재하는 최신 최소값(idx2기준) , tmp2 : idx1을 거쳐 가중치를 더해진 새로운 경로(idx1 기준)
 				
 				int idx1=p.num;
 				int idx2=map.get(idx1).get(i).num;
