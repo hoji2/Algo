@@ -9,6 +9,8 @@ public class BOJ_2193_이친수 {
 	 * 4: 3 (1000, 1001,1010)
 	 * 5: 5 (10000, 10001, 10010, 10100, 10101)
 	 */
+	
+	// 피보나치 : https://jaemin8852.tistory.com/165
 	static Scanner sc=new Scanner(System.in);
 	static long[]dp=new long[91];
 	public static void main(String[] args) {

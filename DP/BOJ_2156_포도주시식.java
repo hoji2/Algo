@@ -30,7 +30,7 @@ public class BOJ_2156_포도주시식 {
 			dp[2]=map[1]+map[2];
 			for (int i = 3; i <= n; i++) {
 				// 총 3가지 조건
-				dp[i]=Math.max(dp[i-2]+map[i], dp[i-3]+map[i-1]+map[i]);
+				dp[i]=Math.max(dp[i-2], dp[i-3]+map[i-1])+map[i];
 				// dp[i-1]조건 중요(무조건 최종점에 도착안해도 되는 조건)
 				dp[i]=Math.max(dp[i], dp[i-1]);
 			}
