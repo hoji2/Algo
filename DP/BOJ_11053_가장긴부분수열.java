@@ -15,15 +15,15 @@ public class BOJ_11053_가장긴부분수열 {
         
 		for(int i=1;i<=n;i++) {
 			map[i] = sc.nextInt();
+			dp[i]=1;
 		}
 		
-		dp[1] = 1; // dp[1]은 항상 1로 초기화 된다. 이전에 더해진 값이 없기 때문
 		
 		for(int i=2;i<=n;i++) { //두 번째 숫자를 기준으로 n까지 반복
-			dp[i] = 1; // 우선 자신의 값을 dp에 저장해 둔다.
 			for(int j=1;j<i;j++) { // 첫 번째 부터 i이전 까지 비교를 위한 반복
 				if(map[i]>map[j]) { // 기준값이 더 큰 경우
-					dp[i] = Math.max(dp[i],dp[j]+1); // 길이를 증가하여 dp값 갱신
+					//현재 자기자신 dp[i]에 탐색될 때 마다 그 이전 j와 최장길이가 저장되어있는 dp[j]값에 +1을 하여 MAX 판단
+					dp[i] = Math.max(dp[i],dp[j]+1);
 				}
 			}
 		}
@@ -32,7 +32,6 @@ public class BOJ_11053_가장긴부분수열 {
 		System.out.println(dp[n]);
 		
 	}
-	
 }
 
 [BinarySearch 풀이]
