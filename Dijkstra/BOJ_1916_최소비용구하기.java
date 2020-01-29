@@ -24,7 +24,7 @@ public class BOJ_1916_최소비용구하기 {
 		ArrayList<ArrayList<point>> map=new ArrayList<ArrayList<point>>();
 		int[]dp=new int[n+1];
 		Queue<point> pq=new PriorityQueue<point>(comp);
-		
+		// 0번 idx ArrayList는 사용 X
 		for (int i = 0; i <=n; i++) {
 			map.add(new ArrayList<point>());
 		}
