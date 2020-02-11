@@ -26,21 +26,10 @@ public class BOJ_11724_연결요소의개수 {
 		for (int i = 1; i <=n; i++) {
 			if(!visit[i]) {
 				res++;
-				dfs(i);
-				//bfs(i);
+				bfs(i);
 			}
 		}
 		System.out.println(res);
-	}
-	
-	public static void dfs(int x) {
-		for (int i = 1; i <=n; i++) {
-			if(map[x][i]==1 && !visit[i]) {
-				visit[i]=true;
-				dfs(i);
-			}
-		}
-		return;
 	}
 	
 	public static void bfs(int st) {
@@ -60,6 +49,4 @@ public class BOJ_11724_연결요소의개수 {
 			}
 		}
 	}
-	
-	
 }

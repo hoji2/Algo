@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry excluding="Math/|BinarySearch/|Queue/|DivideConquer/|Sort/|DFS,BFS/|Dijkstra/|Stack/|BFS/|BruteForce/|DFS/|DP/|Greedy/|IO/|List/|StringPS/|BruteForce/N과M(순열,조합)/" kind="src" path=""/>
+	<classpathentry kind="src" path="BFS"/>
+	<classpathentry kind="src" path="BinarySearch"/>
+	<classpathentry excluding="N과M(순열,조합)/" kind="src" path="BruteForce"/>
+	<classpathentry kind="src" path="BruteForce/N과M(순열,조합)"/>
+	<classpathentry kind="src" path="DFS"/>
+	<classpathentry kind="src" path="DFS,BFS"/>
+	<classpathentry kind="src" path="Dijkstra"/>
+	<classpathentry kind="src" path="DivideConquer"/>
+	<classpathentry kind="src" path="DP"/>
+	<classpathentry kind="src" path="Greedy"/>
+	<classpathentry kind="src" path="IO"/>
+	<classpathentry kind="src" path="List"/>
+	<classpathentry kind="src" path="Math"/>
+	<classpathentry kind="src" path="Queue"/>
+	<classpathentry kind="src" path="Sort"/>
+	<classpathentry kind="src" path="Stack"/>
+	<classpathentry kind="src" path="StringPS"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
