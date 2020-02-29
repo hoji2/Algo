@@ -1,4 +1,3 @@
-package samsung;
 import java.util.Scanner;
 
 public class BOJ_14502_연구소_중요_완탐DFS_삼성기출 {

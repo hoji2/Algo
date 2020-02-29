@@ -1,4 +1,3 @@
-package samsung;
 import java.util.Scanner;
 
 public class BOJ_14501_퇴사_완탐 {

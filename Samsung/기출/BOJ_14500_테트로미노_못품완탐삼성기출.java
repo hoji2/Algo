@@ -1,4 +1,3 @@
-package samsung;
 import java.util.Scanner;
 
 public class BOJ_14500_테트로미노_못품완탐삼성기출 {

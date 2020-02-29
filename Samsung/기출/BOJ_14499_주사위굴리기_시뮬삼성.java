@@ -1,4 +1,3 @@
-package samsung;
 import java.util.Scanner;
 
 public class BOJ_14499_주사위굴리기_시뮬삼성 {
