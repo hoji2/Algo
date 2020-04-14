@@ -49,6 +49,7 @@ public class BOJ_11053_가장긴부분수열 {
 	static int[]map;
 	static int idx;
 	
+	
 	public static void main(String[] args) {
 	
 		int n=sc.nextInt();

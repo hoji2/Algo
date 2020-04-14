@@ -22,7 +22,6 @@ public class BOJ_1934_최소공배수 {
         	   b = a%b;
         	   a = gcd;
            }
-           
            lcm=c/gcd;
            System.out.println(lcm);
        }
